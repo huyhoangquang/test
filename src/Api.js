@@ -15,9 +15,9 @@ class App extends Component {
                 this.setState({
                 data: result,
                 })
-            })
+            }) 
     }
-    
+
     render(){
         const {data} = this.state
 
